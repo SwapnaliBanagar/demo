@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping("/testApp")
+    @GetMapping("/")
     public String getMessage()
     {
         return "This first GENKINS application";
